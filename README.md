@@ -8,7 +8,7 @@ A KWin script that fixes some issues related to Picture-in-Picture (PiP) windows
 - **Automatic positioning:** Moves the newly created PiP windows to one of the corners of the screen (with preference for an edge that is shared with a different monitor) and stacks them on top of each other
 - **Automatic resizing:** When multiple PiP windows are stacked on top of each other, the script resizes them to ensure they all have the same width (except for portrait windows)
 - **Multi-monitor support:** If possible, the script moves PiP windows away from the currently "hovered" monitor (the one with cursor on it) to a neighbor monitor, as long as one of the PiP windows isn't hovered or focused
-- **Always on top:** Marks the PiP windows to stay above other windows and on all Virtual Desktops
+- **Always on top:** Marks the PiP windows to stay above other windows
 - **Focus prevention:** Stops PiP windows from stealing focus upon opening - automatically refocuses previously active window
 - **Hide from taskbar:** Flags PiP windows to be hidden from the taskbar, pager and switcher
 

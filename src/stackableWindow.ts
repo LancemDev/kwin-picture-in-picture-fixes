@@ -28,7 +28,6 @@ export class StackableWindow {
     window.skipTaskbar = true;
     window.skipPager = true;
     window.skipSwitcher = true;
-    window.onAllDesktops = true;
     window.keepAbove = true;
   }
 
